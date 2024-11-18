@@ -168,8 +168,6 @@ function App() {
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 
-            <Navbar />
-
             <div className="w-full">
                 <div className="flex items-center py-4">
                     <Input

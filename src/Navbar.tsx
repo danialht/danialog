@@ -11,26 +11,31 @@ import {
 } from "./components/ui/navigation-menu" // @
 
 import { ModeToggle } from './components/mode-toggle' // @
+import { MouseEventHandler } from "react";
 
-function Navbar() {
+interface Props {
+    handleNavigation: (page: string) => void
+}
+
+function Navbar(props: Props) {
     return (
         <>
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
-                        <NavigationMenuLink href="/danialog/" className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink onClick={() => { props.handleNavigation('home') }} className={navigationMenuTriggerStyle()}>
                             Home
                         </NavigationMenuLink>
                     </NavigationMenuItem>
 
                     <NavigationMenuItem>
-                        <NavigationMenuLink href="/danialog/blog" className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink onClick={() => { props.handleNavigation('blog') }} className={navigationMenuTriggerStyle()}>
                             Blog
                         </NavigationMenuLink>
                     </NavigationMenuItem>
 
                     <NavigationMenuItem>
-                        <NavigationMenuLink href="/danialog/about" className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink onClick={() => { props.handleNavigation('about') }} className={navigationMenuTriggerStyle()}>
                             About
                         </NavigationMenuLink>
                     </NavigationMenuItem>

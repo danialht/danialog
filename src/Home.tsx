@@ -6,8 +6,6 @@ function App() {
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 
-            <Navbar />
-
             <div className="w-[calc(100%-4rem)] mx-auto rounded-md h-[80vh] overflow-hidden" >
                 <Vortex
                     backgroundColor={"#000000"}
