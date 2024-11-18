@@ -1,17 +1,12 @@
 import {
     NavigationMenu,
-    // NavigationMenuContent,
-    // NavigationMenuIndicator,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    // NavigationMenuTrigger,
-    // NavigationMenuViewport,
     navigationMenuTriggerStyle,
-} from "./components/ui/navigation-menu" // @
+} from "./components/ui/navigation-menu"
 
-import { ModeToggle } from './components/mode-toggle' // @
-// import { MouseEventHandler } from "react";
+import { ModeToggle } from './components/mode-toggle'
 
 interface Props {
     handleNavigation: (page: string) => void

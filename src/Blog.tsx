@@ -1,11 +1,4 @@
-// TODO: tracing beam from aceternity
-// TODO: Pagination??
-// TODO: icon for sharing
-import {
-    // CaretSortIcon,
-    // ChevronDownIcon,
-    DotsHorizontalIcon,
-} from "@radix-ui/react-icons"
+import { DotsHorizontalIcon } from "@radix-ui/react-icons"
 import {
     ColumnDef,
     ColumnFiltersState,
@@ -19,16 +12,15 @@ import {
     useReactTable,
 } from "@tanstack/react-table"
 
-import { Button } from "./components/ui/button" //@
+import { Button } from "./components/ui/button"
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuLabel,
-    // DropdownMenuSeparator,
     DropdownMenuTrigger,
-} from "./components/ui/dropdown-menu" //@
-import { Input } from "./components/ui/input" //@
+} from "./components/ui/dropdown-menu"
+import { Input } from "./components/ui/input"
 import {
     Table,
     TableBody,
@@ -36,13 +28,11 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-} from "./components/ui/table" // @
-import { ThemeProvider } from "./components/theme-provider" // @
+} from "./components/ui/table"
+import { ThemeProvider } from "./components/theme-provider"
 
 import * as React from "react"
 import './App.css'
-// import table from '@/components/table.tsx'
-// import Navbar from './Navbar.tsx'
 
 
 

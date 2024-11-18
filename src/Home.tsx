@@ -1,6 +1,5 @@
-import { ThemeProvider } from /*@*/ "./components/theme-provider"
-import { Vortex } from /*@*/ "./components/ui/vortex"
-// import Navbar from './Navbar.tsx'
+import { ThemeProvider } from "./components/theme-provider"
+import { Vortex } from "./components/ui/vortex"
 
 function App() {
     return (
