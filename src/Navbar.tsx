@@ -11,7 +11,7 @@ import {
 } from "./components/ui/navigation-menu" // @
 
 import { ModeToggle } from './components/mode-toggle' // @
-import { MouseEventHandler } from "react";
+// import { MouseEventHandler } from "react";
 
 interface Props {
     handleNavigation: (page: string) => void

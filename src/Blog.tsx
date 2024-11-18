@@ -42,7 +42,7 @@ import { ThemeProvider } from "./components/theme-provider" // @
 import * as React from "react"
 import './App.css'
 // import table from '@/components/table.tsx'
-import Navbar from './Navbar.tsx'
+// import Navbar from './Navbar.tsx'
 
 
 

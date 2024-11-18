@@ -1,6 +1,6 @@
 import { ThemeProvider } from /*@*/ "./components/theme-provider"
 
-import Navbar from './Navbar.tsx'
+// import Navbar from './Navbar.tsx'
 import { Timeline } from /*@*/"./components/ui/timeline.tsx";
 import { Internships, Projects, Education } from './AboutData.tsx';
 // TODO: timeline from aceternity ui
