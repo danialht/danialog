@@ -12,6 +12,8 @@ function App() {
     setCurrentPage(page);
   };
 
+  // TODO: use code splitting, or something to not load everything at once
+
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <NavBar handleNavigation={handleNavigation} />
